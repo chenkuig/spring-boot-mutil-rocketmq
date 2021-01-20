@@ -24,7 +24,7 @@ public class TestProducer{
 	@Qualifier("mutilMQProducer2")
 	private DefaultMQProducer mutilMQProducer2;
 	
-	//调用地址：http://127.0.0.1:8071/test/sendMessage
+	//调用地址：http://127.0.0.1:8080/test/sendMessage
 	@GetMapping("/sendMessage")
 	void sendTest() {
 		try {
