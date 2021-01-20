@@ -1,7 +1,7 @@
 # spring-boot-mutil-rocketmq
 
-实现了rocketmq多个客户端实例的
-如下配置
+实现了rocketmq多个客户端实例的  \n
+如下配置  \n
 #rocketmq实例一
 mutil.rocketmq.properties.service1.serverName =  mutilMQProducer1
 mutil.rocketmq.properties.service1.nameServer=10.110.12.10:9876
